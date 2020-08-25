@@ -1,9 +1,10 @@
 # BCH5884-Programming-For-Chemist-and-BioChemist
+
 I am publishing all these resources and projects along with important reading materials so everyone can access these and help them in their scientific computing career. -- Nawaraj Paudel, contactinfo: newking9088@gmail.com
 
 COURSE DESCRIPTION:
 
- The modern chemist or biochemist is required to be proficient in many techniques including spectroscopy, mass spectrometry, sequence analysis, structural biology, and other biophysical techniques. Analysis of data from these sources often requires developing new algorithms and computer programs to process the data. This course will cover the fundamentals of programming using the scripting language Python and will be geared towards scientists with a need to process data in novel ways. Topics that will be covered include an introduction to UNIX, HTML, the fundamentals of programming, scripting with Python, and object-oriented programming. As part of the course, students will be required to do a programming project related to their research. No previous knowledge of programming is required.
+The modern chemist or biochemist is required to be proficient in many techniques including spectroscopy, mass spectrometry, sequence analysis, structural biology, and other biophysical techniques. Analysis of data from these sources often requires developing new algorithms and computer programs to process the data. This course will cover the fundamentals of programming using the scripting language Python and will be geared towards scientists with a need to process data in novel ways. Topics that will be covered include an introduction to UNIX, HTML, the fundamentals of programming, scripting with Python, and object-oriented programming. As part of the course, students will be required to do a programming project related to their research. No previous knowledge of programming is required.
 
 LEARNING OBJECTIVES:
 
@@ -44,9 +45,9 @@ Numpy/Scipy/Matplotlib
 
 Programming Projects:
 
-Structure analysis
-Sequence search
-Curve fitting
-UV spectrum analysis
-Image analysis
-COVID Simulation
+1. Structure analysis
+2. Sequence search
+3. Curve fitting
+4. UV spectrum analysis
+5. Image analysis
+6. COVID Simulation
