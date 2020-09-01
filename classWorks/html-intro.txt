@@ -1,0 +1,7 @@
+HTML -- HyperText Markup Language
+Markup -- Only deals with formaatted layout and structure eg. LaTex ia a Markup Language
+Webpage interprets HTML displays formatted web page
+
+HTML was first developed in 1991.
+First standarized version was i9n 1995 which was HTML2. We are currently on HTML5.
+
