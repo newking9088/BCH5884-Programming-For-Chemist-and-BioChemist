@@ -5,3 +5,59 @@ Webpage interprets HTML displays formatted web page
 HTML was first developed in 1991.
 First standarized version was i9n 1995 which was HTML2. We are currently on HTML5.
 
+Format: Elements(Tags), Attributes, Values
+<title>CapitalOne</title>  ---> <title> is element and CapitalOne is value.
+
+Tags always must have opening tags but not necessarily the closing tags. eg. <br> break line tag does not have closing tag.
+Attributes are always in (attribute name , attribute value) pair, attribute name = "attribute value", attribute values are always enclosed in quotes. There is no comma separation between attributes. Just use white space.
+
+HTML ignores white spaces and its case insensitive, but always use small letters for convention! If you want a new line, you should use <br> break line tag! Anything inside body will be inline or in a single line unless we break it.
+
+It's always a good practice to use target ="_blank" attribute while using href to insert an link which forces the link to be opened in new window.
+
+It's always a good practice to use image height and width attributes while using img tag.
+
+Always specify the language using lang attribute: <html lang="en"> </html>
+
+You can get html template by following these steps: 1) open a sublime text editor 2) save file as .html 3) juts type html and hit a tab. 4) It will give you the html template.
+
+HTML Entities
+Some characters are reserved in HTML.
+
+If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+
+Character entities are used to display reserved characters in HTML.
+
+A character entity looks like this:
+
+&entity_name;
+
+OR
+
+&#entity_number;
+
+eg. &lt or &#60 ; is used to write < in HTML. Similarly, &gt; (>), &nbsp(no breaking space,put them always together in same line eg. $10),&amp; (&), &quot;(" "), &apos;(apostrophe), &copy;(Copyright)
+
+Combining Diacritical Marks
+A diacritical mark is a "glyph" added to a letter.
+
+Some diacritical marks, like grave (  ̀) and acute (  ́) are called accents.
+
+Diacritical marks can appear both above and below a letter, inside a letter, and between two letters.
+
+Diacritical marks can be used in combination with alphanumeric characters to produce a character that is not present in the character set (encoding) used in the page.
+
+Here are some examples:
+
+Mark	Character	Construct	Result
+ ̀			a			a&#768;		à
+ ́			a			a&#769;		á
+̂			a			a&#770;		â
+ ̃			a			a&#771;		ã
+ ̀			O			O&#768;		Ò
+ ́			O			O&#769;		Ó
+̂			O			O&#770;		Ô
+ ̃			O			O&#771;		Õ
+
+
+ Check your HTML code using html code validator: https://validator.w3.org/nu/#textarea
