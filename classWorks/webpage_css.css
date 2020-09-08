@@ -1,0 +1,29 @@
+/*css -- Stands for cascading style sheet 
+similar to HTML
+selector, property, values
+ex : h1{color:red;} , h1-> selector; color:red; (property:value;) pair
+
+Always make a different .css file and link it back to the webpage you want to style. This way we can make sure 
+that if there are multiple webpages we can style them in same manner and at once.
+
+To link CSS to an HTML file, we use the <link> tag that you put in the HTML’s <head> section. The link will look 
+like this.In the header section,
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+</head>
+Here’s a breakdown of the attributes contained within the link:
+
+rel — defines the relationship between the file that hosts this command and the file defined in the href attribute. 
+The standard value for this attribute is stylesheet.
+type — defines the content of the linked file. In this tutorial, we set this attribute’s value to text/css. 
+However, you can skip it altogether if you’re using HTML5.
+href — specifies the location of the CSS file you want to link to the HTML. If the CSS file is in the same
+directory as the HTML file, you only need to enter the file name. Otherwise, you need to include the folder 
+name in which you store the CSS file (example: CSS/stylesheet.css).
+media — specifies the type of media the CSS rules are optimized for. In this tutorial, we use the screen value to 
+imply its use for computer screens. If you want to apply the CSS rules to printed pages, you can set the value to print.
+Once you’ve included the above link in your HTML file, save the changes and enter your website’s URL in the browser. 
+Styles written in the CSS file should change the look of your website.
+
+Comments in CSS
+/* comment */
