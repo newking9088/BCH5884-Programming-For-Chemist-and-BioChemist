@@ -1,0 +1,8 @@
+# make your library directory
+home/newking9088/lib
+#Put your modules into lib folder
+export PYTHONPATH = /home/newking9088/lib
+# Now you are ready to import your modules
+# without having to put them into same 
+#directory as where your .py file is
+from pdbtools import *
