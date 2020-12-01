@@ -1,0 +1,111 @@
+/*Go to the folder where you are working and browser-sync start -server --directory "*"*/
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
+	margin-top: 10px;
+	overflow:auto;
+}
+
+
+h1{
+	font-family: Arial,Bookman, sans-serif;
+	color: rgb(255,255,0);
+	text-align: center;
+    font-weight:60px;
+    font-style: italic;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+h1:hover,div:hover, p:hover{
+  background-color: rgb(255,123,0);
+  cursor: pointer;
+}
+
+body {
+	background-color:#659DBD;
+}
+
+div.intro{
+	width:100%;
+	border: solid 4px black;
+	background:white;
+	margin:5px;
+	padding:5px;
+	text-align:left;
+}
+
+div.history{
+	width:100%;
+	border:solid 4px green;
+	background:white;
+	margin:5px;
+	padding:5px;
+	text-align:left;
+}
+
+div.reference{
+	width:100%;
+	border: solid 4px magenta;
+	background:white;
+	margin:10px;
+	padding:5px;
+	text-align:left;
+}
+
+table {
+	margin:1% 10% 1% 10%;
+	width:75%;
+   border-collapse: collapse;
+ }
+
+table, th, td {
+  border: 1px solid black;
+  text-align:center;
+  padding:1px;
+}
+td{
+	height:30px;
+	vertical-align:bottom;
+}
+
+tr:hover {background-color:rgb(255,123,123);}
+/* unvisited link */
+
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+p{
+	display:inline-block;
+}
+
+figure {
+  float: left;
+  width:28%;
+  text-align:center;
+  font-style: italic;
+  font-size: 16px;
+  text-indent: 0;
+  border: thin silver solid;
+  padding: 2px;
+  overflow: visible;
+  margin:5px;
+}
+
